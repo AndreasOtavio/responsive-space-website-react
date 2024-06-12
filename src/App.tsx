@@ -1,13 +1,15 @@
 import './App.css'
-import Header from "./components/Header";
-import MainPage from "./components/MainPage";
-import Skylevel from "./components/Skylevel";
+import Header from "./components/Home/Header";
+import MainPage from "./components/Home/MainPage";
+import Skylevel from "./components/Home/Skylevel";
+
+
 
 function App() {
 
   return (
     <>
-     <Header/>
+      <Header/>
       <MainPage/>
       <Skylevel/>
     </>
